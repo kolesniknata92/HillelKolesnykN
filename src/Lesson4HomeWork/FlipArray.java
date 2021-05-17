@@ -8,15 +8,15 @@ public class FlipArray {
 
         System.out.println("Array before reverse: " + Arrays.toString(originalArray));
 
-        for (int i = 0; i< originalArray.length/2;  i++) {
+        for (int i = 0; i < originalArray.length / 2; i++) {
             int g = originalArray[i];
             originalArray[i] = originalArray[originalArray.length - i - 1];
             originalArray[originalArray.length - i - 1] = g;
         }
 
-            System.out.println("Array after reverse: " + Arrays.toString(originalArray));
-        }
+        System.out.println("Array after reverse: " + Arrays.toString(originalArray));
     }
+}
 
 
 

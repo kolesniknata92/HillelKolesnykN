@@ -28,7 +28,7 @@ public class PlayWithDice {
                 System.out.println("You are on the " + currentBoardDivisions + " position" + System.lineSeparator() +
                         "You lose");
                 break;
-            } else if (currentBoardDivisions < 20 & throwDice == 5 ){
+            } else if (currentBoardDivisions < 20 & throwDice == 5) {
                 System.out.println("You are on the " + currentBoardDivisions + " position" + System.lineSeparator() +
                         "You have no more throws"
                         + System.lineSeparator() + "You lose");

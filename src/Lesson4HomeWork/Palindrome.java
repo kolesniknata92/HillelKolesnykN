@@ -11,7 +11,7 @@ public class Palindrome {
 
         char[] arrayOfChars = enteredWord.toCharArray();
         int size = arrayOfChars.length;
-        char [] palindrome = Arrays.copyOf(arrayOfChars,arrayOfChars.length);
+        char[] palindrome = Arrays.copyOf(arrayOfChars, arrayOfChars.length);
 
 
         for (int i = 0; i < size / 2; i++) {
@@ -20,10 +20,9 @@ public class Palindrome {
             arrayOfChars[size - i - 1] = t;
         }
         System.out.println("Введенное слово справа налево:" + Arrays.toString(arrayOfChars));
-        if (Arrays.equals(arrayOfChars, palindrome )) {
+        if (Arrays.equals(arrayOfChars, palindrome)) {
             System.out.println("Введенная строка является палиндромом");
-        }
-        else {
+        } else {
             System.out.println("Введенная строка не является палиндромом");
         }
 

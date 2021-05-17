@@ -15,14 +15,14 @@ public class SortArray {
                     sort = false;
 
                     s = arraySort[i];
-                    arraySort[i] = arraySort[i+1];
-                    arraySort[i+1]= s;
+                    arraySort[i] = arraySort[i + 1];
+                    arraySort[i + 1] = s;
                 }
             }
         }
-                System.out.println(Arrays.toString(arraySort));
-            }
-        }
+        System.out.println(Arrays.toString(arraySort));
+    }
+}
 
 
 
