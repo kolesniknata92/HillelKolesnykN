@@ -38,7 +38,6 @@ public class Task2 {
         double total = bonus1 + bonus2 + bonus3 + bonus4;
         System.out.println("Итого Ваша заработная плата: " + total );
 
-
     }
 
     public static double sumForOvertime (int hours, double rate){
