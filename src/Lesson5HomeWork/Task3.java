@@ -25,9 +25,6 @@ public class Task3 {
 
         System.out.println("Стоимость израсходованного пакета за месяц: " + sumForPackage);
 
-
-
-
     }
     public static double internet(int gb ) {
         double sumForGb;
