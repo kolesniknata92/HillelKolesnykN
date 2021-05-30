@@ -28,7 +28,11 @@ public class Task3 {
     }
     public static double internet(int gb ) {
         double sumForGb;
-        sumForGb = ((gb - 8.0) / 0.5) * 50.0;
+        if (gb <= 8) {
+            sumForGb = 0;
+        } else {
+            sumForGb = ((gb - 8.0) / 0.5) * 50.0;
+        }
         return sumForGb;
     }
 
