@@ -1,7 +1,7 @@
 package Lesson8HomeWorkTask1;
 
-public class Apple extends Fruit{
-    public void removeSeeds(){
+public class Apple extends Fruit {
+    public void removeSeeds() {
         System.out.println("Удаляем косточки из яблока");
 
     }
@@ -11,7 +11,7 @@ public class Apple extends Fruit{
     }
 
     @Override
-    public void makeJuice(){
+    public void makeJuice() {
         System.out.println("Готовится яблочный сок");
     }
 

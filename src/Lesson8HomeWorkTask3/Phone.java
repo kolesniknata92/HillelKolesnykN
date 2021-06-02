@@ -1,7 +1,7 @@
 package Lesson8HomeWorkTask3;
 
 public abstract class Phone {
-    public void phoneDialing(){
+    public void phoneDialing() {
         System.out.println("Происходит набор номера");
     }
 

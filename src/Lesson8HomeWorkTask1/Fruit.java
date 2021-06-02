@@ -14,7 +14,8 @@ public class Fruit {
     public void setCalories(int calories) {
         this.calories = calories;
     }
-    public void makeJuice(){
+
+    public void makeJuice() {
         System.out.println("сок сделан");
     }
 }

@@ -10,10 +10,8 @@ public class TasteTester {
 
         WeddingCake weddingCake = new WeddingCake();
         System.out.println("Wedding cake has " + weddingCake.getTiers() + " tiers");
-        System.out.println("Taste of wedding cake: "+ weddingCake.getTaste());
-        System.out.println("Price of wedding cake: $" +weddingCake.getPrice());
-
-
+        System.out.println("Taste of wedding cake: " + weddingCake.getTaste());
+        System.out.println("Price of wedding cake: $" + weddingCake.getPrice());
 
 
     }

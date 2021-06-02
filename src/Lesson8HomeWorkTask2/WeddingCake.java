@@ -10,6 +10,7 @@ public class WeddingCake extends Cake {
     public void setTiers(int tiers) {
         this.tiers = tiers;
     }
+
     public WeddingCake() {
         super("Chocolate", 180.20);
         setTiers(5);

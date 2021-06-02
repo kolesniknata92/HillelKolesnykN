@@ -9,7 +9,6 @@ public class MobileOperatorTariff {
     private double phoneBill;
 
 
-
     public MobileOperatorTariff(double gb, double minInUkr, int smsCount, double minCallsAbroad1, double minCallsAbroad2) {
         this.gb = gb;
         this.minInUkr = minInUkr;
@@ -20,6 +19,7 @@ public class MobileOperatorTariff {
 
 
     }
+
     public double getPhoneBill() {
         return phoneBill;
     }
@@ -71,39 +71,41 @@ public class MobileOperatorTariff {
 
     public double internetCosts() {
         double sumForGb;
-        if (gb <= 8){
+        if (gb <= 8) {
             sumForGb = 0;
-        }
-        else {
+        } else {
             sumForGb = ((gb - 8.0) / 0.5) * 50.0;
         }
-            return sumForGb;
-        }
+        return sumForGb;
+    }
 
-         public double callsInUkrCosts(){
-            double min1 = 500;
-            double min2 = minInUkr - min1;
-            double sumForCallsInUkraine = (min1 * 0.5) + (min2 * 0.75);
-            return sumForCallsInUkraine;
-        }
-         public double sms(){
-            int sms1 = 50;
-            int sms2 = smsCount - sms1;
-            double sumForSms = 0;
-            if (sms2 != 0 ) {
-                sumForSms = 2.5;
-            } else {
-                sumForSms = 1;
-            }
-            return sumForSms;
+    public double callsInUkrCosts() {
+        double min1 = 500;
+        double min2 = minInUkr - min1;
+        double sumForCallsInUkraine = (min1 * 0.5) + (min2 * 0.75);
+        return sumForCallsInUkraine;
+    }
 
+    public double sms() {
+        int sms1 = 50;
+        int sms2 = smsCount - sms1;
+        double sumForSms = 0;
+        if (sms2 != 0) {
+            sumForSms = 2.5;
+        } else {
+            sumForSms = 1;
         }
-         public double callsAbroad1() {
-            double sumForCallsAbroad1 = minCallsAbroad1 * 1.5;
-            return sumForCallsAbroad1;
-        }
-         public double callsAbroad2(){
-            double sumForCallsAbroad2 = minCallsAbroad2 * 2;
-            return sumForCallsAbroad2;
-        }
+        return sumForSms;
+
+    }
+
+    public double callsAbroad1() {
+        double sumForCallsAbroad1 = minCallsAbroad1 * 1.5;
+        return sumForCallsAbroad1;
+    }
+
+    public double callsAbroad2() {
+        double sumForCallsAbroad2 = minCallsAbroad2 * 2;
+        return sumForCallsAbroad2;
+    }
 }

@@ -16,6 +16,5 @@ public class SmartphoneTester {
                 "Магазин приложений - " + iPhone.getMarket());
 
 
-
     }
 }

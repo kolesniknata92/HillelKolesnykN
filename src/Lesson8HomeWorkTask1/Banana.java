@@ -4,14 +4,15 @@ public class Banana extends Fruit {
     public void peelBanana() {
         System.out.println("Сейчас происходит очистка банана");
 
-        }
-    public Banana(){
+    }
+
+    public Banana() {
         super(82);
 
     }
 
     @Override
-    public void makeJuice(){
+    public void makeJuice() {
         System.out.println("Готовится банановый сок");
     }
 

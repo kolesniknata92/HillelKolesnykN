@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrintNumberInWord {
     public static void main(String[] args) {
 
-        System.out.println("Set number");
+      System.out.println("Set number");
 
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();

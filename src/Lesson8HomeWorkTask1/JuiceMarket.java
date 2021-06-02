@@ -24,11 +24,8 @@ public class JuiceMarket {
         orange.makeJuice();
 
 
-
-
-
     }
 
-    }
+}
 
 
