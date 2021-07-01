@@ -21,14 +21,5 @@ public class Task2 {
             e.printStackTrace();
         }
 
-
-
-
-
-
-
-
-
-
     }
 }
